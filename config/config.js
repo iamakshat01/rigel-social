@@ -4,7 +4,7 @@ const config = {
   jwtSecret: process.env.JWT_SECRET || "YOUR_secret_key",
   mongoUri: process.env.MONGODB_URI ||
     process.env.MONGO_HOST ||
-    'mongodb+srv://<USERNAME>:<PASSWORD>@cluster0.jeody.mongodb.net/socialmedia?retryWrites=true&w=majority'
+    'DB link'
     }
 
 export default config
